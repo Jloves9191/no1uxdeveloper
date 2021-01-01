@@ -38,7 +38,7 @@ const PcWelcome = () => {
                 textAlign:'right',
                 fontFamily: "NanumPen",
                 fontWeight: 'bold',
-                fontSize: '300%',
+                fontSize: '400%',
                 color: '#3f50b5'
             }}>
                 <p>Jay Kwon</p>
@@ -51,7 +51,7 @@ const PcWelcome = () => {
                 right: '20%',
                 textAlign:'right',
                 fontFamily: "NanumPen",
-                fontSize: '200%',
+                fontSize: '220%',
                 color: '##FFFFFF'
             }}>
                 <Typical
@@ -65,7 +65,7 @@ const PcWelcome = () => {
                 height: '10%',
                 position: 'absolute',
                 top: '12%',
-                right: '8%',
+                right: '9%',
                 float: 'right'
             }}>
                 <Button variant="outlined" color="primary"onClick={() => history.push('/Profile')}>Profile</Button>
