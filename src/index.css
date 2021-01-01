@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'NanumPen';
+  src: local('NanumPen'), url(./fonts/NanumPenScript-Regular.ttf) format('truetype');
+}
