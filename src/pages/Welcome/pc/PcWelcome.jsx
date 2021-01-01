@@ -21,28 +21,28 @@ const PcWelcome = () => {
                 height: '20%',
                 position: 'absolute',
                 top: '10%',
-                left: '10%',
+                right: '10%',
                 textAlign:'left',
                 fontFamily: "NanumSquareRoundR",
                 fontWeight: 'bold',
                 fontSize: '400%',
                 color: '#4770B3'
             }}>
-                <p>행복</p>
+                <p>Jay Kwon</p>
             </div>
             <div style={{
                 width: '40%',
                 height: '20%',
                 position: 'absolute',
-                top: '25%',
-                left: '10%',
-                textAlign:'left',
+                top: '20%',
+                right: '10%',
+                textAlign:'right',
                 fontFamily: "NanumSquareRoundR",
                 fontSize: '250%',
-                color: '##50AED3'
+                color: '##FFC300'
             }}>
                 <Typical
-                    steps={['살(Buy, Live)', 1500, '살(Buy, Live) 수 있을까?', 1000]}
+                    steps={['Welcome to ', 1000, 'My Webpage', 1000]}
                     loop={Infinity}
                     wrapper="p"
                 />
@@ -52,7 +52,7 @@ const PcWelcome = () => {
                 height: '30%',
                 position: 'absolute',
                 top: '40%',
-                left: '10%'
+                right: '10%'
             }}>
                 <TextBtn></TextBtn>
 
