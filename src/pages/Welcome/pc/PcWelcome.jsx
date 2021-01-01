@@ -26,7 +26,7 @@ const PcWelcome = () => {
                 fontFamily: "NanumSquareRoundR",
                 fontWeight: 'bold',
                 fontSize: '400%',
-                color: '#4770B3'
+                color: '#FFC300'
             }}>
                 <p>Jay Kwon</p>
             </div>
@@ -34,7 +34,7 @@ const PcWelcome = () => {
                 width: '40%',
                 height: '20%',
                 position: 'absolute',
-                top: '20%',
+                top: '10%',
                 right: '10%',
                 textAlign:'right',
                 fontFamily: "NanumSquareRoundR",
@@ -42,7 +42,7 @@ const PcWelcome = () => {
                 color: '##FFC300'
             }}>
                 <Typical
-                    steps={['Welcome to ', 1000, 'My Webpage', 1000]}
+                    steps={['Welcome to ', 1000, 'Welcome to My Webpage', 2000]}
                     loop={Infinity}
                     wrapper="p"
                 />
@@ -51,7 +51,7 @@ const PcWelcome = () => {
                 width: '50%',
                 height: '30%',
                 position: 'absolute',
-                top: '40%',
+                top: '30%',
                 right: '10%'
             }}>
                 <TextBtn></TextBtn>
