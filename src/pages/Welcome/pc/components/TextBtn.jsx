@@ -17,8 +17,8 @@ export default function ContainedButtons() {
 
     return (
         <div className={classes.root}>
-            <Button variant="outlined" color="primary" size="large" onClick={() => history.push('/Happy')}>행복이란?</Button>
-            <Button variant="contained" color="primary" size="large" onClick={() => history.push('/Home')} endIcon={<KeyboardArrowRightIcon />}>데이터 보러가기</Button>
+            <Button variant="outlined" color="primary" size="large" onClick={() => history.push('/Happy')}>Profile</Button>
+            <Button variant="contained" color="primary" size="large" onClick={() => history.push('/Home')} endIcon={<KeyboardArrowRightIcon />}>Portfolio</Button>
         </div>
     );
 }
