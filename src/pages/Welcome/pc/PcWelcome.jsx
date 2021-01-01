@@ -38,7 +38,7 @@ const PcWelcome = () => {
                 textAlign:'right',
                 fontFamily: "NanumPen",
                 fontWeight: 'bold',
-                fontSize: '500%',
+                fontSize: '300%',
                 color: '#3f50b5'
             }}>
                 <p>Jay Kwon</p>
@@ -51,7 +51,7 @@ const PcWelcome = () => {
                 right: '20%',
                 textAlign:'right',
                 fontFamily: "NanumPen",
-                fontSize: '300%',
+                fontSize: '200%',
                 color: '##FFFFFF'
             }}>
                 <Typical
@@ -68,7 +68,7 @@ const PcWelcome = () => {
                 right: '8%',
                 float: 'right'
             }}>
-                <Button variant="outlined" color="primary" size="large" onClick={() => history.push('/Profile')}>Profile</Button>
+                <Button variant="outlined" color="primary"onClick={() => history.push('/Profile')}>Profile</Button>
             </div>
             <div className={classes.root} style={{
                 width: '10%',
@@ -78,7 +78,7 @@ const PcWelcome = () => {
                 right: '8%',
                 float: 'right'
             }}>
-                <Button variant="contained" color="primary" size="large" onClick={() => history.push('/Portfolio')} endIcon={<KeyboardArrowRightIcon />}>Portfolio</Button>
+                <Button variant="contained" color="primary" onClick={() => history.push('/Portfolio')} endIcon={<KeyboardArrowRightIcon />}>Portfolio</Button>
             </div>
 
         </div>
