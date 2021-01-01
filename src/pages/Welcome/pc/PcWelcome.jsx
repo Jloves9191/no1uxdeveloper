@@ -64,7 +64,7 @@ const PcWelcome = () => {
                 width: '10%',
                 height: '10%',
                 position: 'absolute',
-                top: '12%',
+                top: '10%',
                 right: '9%',
                 float: 'right'
             }}>
@@ -74,7 +74,7 @@ const PcWelcome = () => {
                 width: '10%',
                 height: '10%',
                 position: 'absolute',
-                top: '21%',
+                top: '20%',
                 right: '8%',
                 float: 'right'
             }}>
