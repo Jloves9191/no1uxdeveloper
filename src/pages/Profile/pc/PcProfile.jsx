@@ -56,12 +56,12 @@ function PcHappy() {
           marginLeft: "10%",
           width: '80%',
           textAlign:'left',
-          fontFamily: "NanumSquareRoundR",
+          fontFamily: "NanumPen",
           fontWeight: 'bold',
           fontSize: '300%',
           color: '#4770B3'
         }}>
-            <p>"행복"이란?</p>
+            <p>Jay Kwon</p>
         </div>
         <div style={{
           marginLeft: "10%",
@@ -72,9 +72,7 @@ function PcHappy() {
           color: '##50AED3',
           whiteSpace : "pre-wrap"
         }}>
-            대한민국 전문가들이 정의한<br/>
-            오른쪽에 보이는 행복의 구성요소를<br/>
-            그 가중치에 따라 합한 숫자로 정의됩니다.<br/>
+            World Best UX Developer<br/>
             <br/>
             <img src="http://www.happykorea.re.kr/about/img/about_img_1_1.gif" width='100%'/>
             <br/>
