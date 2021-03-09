@@ -11,7 +11,7 @@ const useStyles = makeStyles((theme) => ({
     root: {
         '& > *': {
             fontFamily: 'NanumPen',
-            fontSize: '150%',asdf
+            fontSize: '150%',
         },
     },
 }));
